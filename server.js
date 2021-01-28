@@ -9,12 +9,17 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mern-portfolio", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
-});
+app.use(express.static("client/build"));
+
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://localhost/mern-portfolio",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+  }
+);
 
 const connection = mongoose.connection;
 
@@ -27,11 +32,15 @@ connection.on("error", (err) => {
 });
 
 app.get("/api/config", (req, res) => {
-    res.json({
-      success: true,
-    });
+  res.json({
+    success: true,
   });
+});
 
-  app.listen(PORT, () => {
-    console.log(`Server started on ${PORT} on http://localhost:${PORT}`);
-  });
+app.get("*", (req, res) => {
+  res.sendFile(path.json(__dirname, "./client/build/index.html"));
+});
+
+app.listen(PORT, () => {
+  console.log(`Server started on ${PORT} on http://localhost:${PORT}`);
+});

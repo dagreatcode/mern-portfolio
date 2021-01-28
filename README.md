@@ -51,7 +51,7 @@
 
 <br />
 
-[website]: https://dagreatcode.github.io/vk-portfolio/
+[website]: http://www.vincentkendrick/
 [medium]: https://medium.com/@dagreatcode/
 [kaggle]: https://www.kaggle.com/dagreatcode
 [codechef]: http://codechef.com/users/dagreatcode

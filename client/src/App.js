@@ -1,7 +1,13 @@
+import {useEffect} from "react";
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+
+useEffect(() => {
+  console.log("Make an API call");
+}, [])
   return (
     <div className="App">
       <header className="App-header">

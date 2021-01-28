@@ -4,7 +4,8 @@
 
 
 ## I'm a Man, Husband, Father, Friend, Developer, Teacher, and Researcher!
-[🎧 Page Theme Music 🎧](https://www.youtube.com/watch?v=BP4Utfqnp2I)
+[🎧 Page Music 🎧](https://www.youtube.com/watch?v=BP4Utfqnp2I)
+
 - 🔭 I’m currently working on my [Portfolio][website]!
 - 🌱 I’m currently building React Applications, and Full-Stack PWA Websites and currently re-studying Python 🤣
 - 👯 I’m looking to collaborate with other content creators
@@ -37,6 +38,14 @@
 [<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />][website]
 [<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][website]
 [<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][website]
+
+<br />
+<br />
+<br />
+
+### Website Demo:
+
+![Demo](./client/public/img/gifs.gif)
 
 <br />
 

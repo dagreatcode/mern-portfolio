@@ -5,7 +5,7 @@ import p3 from "./img/p3.png";
 import p4 from "./img/p4.png";
 import p5 from "./img/p5.png";
 import p6 from "./img/p6.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 class Portfolio extends Component {
   render() {

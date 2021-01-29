@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 
@@ -16,9 +15,9 @@ function App() {
       });
   }, []);
   return (
-    <div className="App">
-      <h1>MERN Portfolio Coming Soon!</h1>
-    </div>
+    <>
+      <h1>hello</h1>
+    </>
   );
 }
 

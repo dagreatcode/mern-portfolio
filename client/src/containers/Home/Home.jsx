@@ -1,31 +1,52 @@
 // rcc
 import React, { Component } from "react";
+import img from "./new.png";
 
 class Home extends Component {
   render() {
-    return <>
-    <h1>About Me</h1>
-      {/* <div className="card mb-3" style="max-width: 540px;">
+    return (
+      <>
+        <h1>About Me</h1>
+        <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4">
-            <img src="./favicon.ico" alt="Vincent Kendrick" />
+            <img src={img} alt="Vincent Kendrick" />
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Hi There! 👋</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+              Welcome to my Portfolio. This application was made 
+to show the skills I’ve acquired on my journey. I started 
+off as a Musician and started working at Delta Airlines to 
+support my dreams at the time. Later on, I started working 
+with python and data on my own. But I still was hungry for 
+more. I felt that I was maybe learning things I didn’t need to 
+know or learning things and missing things I may have needed 
+from looking at YouTube videos. Covid came around and I 
+volunteer took a leave they offer the company. They said it 
+would help a lot for a number of reasons. So I took the 
+opportunity to help out and leave into a new career. I chose 
+Web Development. Ended up Graduating from Georgia Tech and Have more 
+skills than I ever could dream of having, including self-awareness. 
               </p>
               <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted">I have a son with autism. It’s a lot but I know God would never but 
+too much on me I can not handle. This project. I have been on a long 
+road to finding myself. I had to let a lot of people go because they did 
+not want anything, but I wanted everything. I have never given up on 
+anything no matter how bad it gets, I still seem to want to do more. It’s 
+so easy to give up, and I never want anything easy. This project was 
+hard but I still put my all into it… I stay up long nights trying to do it on 
+my own. I have made a lot of mistakes. But I am still pushing forwards.
+</small>
               </p>
             </div>
           </div>
         </div>
-      </div> */}
-    </>;
+      </div>
+      </>
+    );
   }
 }
 

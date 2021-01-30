@@ -1,10 +1,13 @@
 import React, { Component } from "react";
+import img from "./linkedin.png";
+import img2 from "./github.png";
 
 class Contact extends Component {
   render() {
     return (
       <div>
-        <h1>Contact</h1>
+        <h1>Contact Me @ 404-337-1206</h1>
+        <h2>E-mail Me @ dagreatcode@gmail.com</h2>
         <div className="mb-3">
           <label for="exampleFormControlInput1" className="form-label">
             Name
@@ -37,6 +40,19 @@ class Contact extends Component {
             rows="3"
           ></textarea>
         </div>
+        <a href="https://www.linkedin.com/in/vincent-kendrick-baab171b2/">
+            <img src={img} alt="Linked In"/>
+          </a>
+      
+          <a href="https://github.com/dagreatcode">
+            <img src={img2} alt="" />
+          </a>
+
+      
+          <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing/">
+            <img src="./assets/Images/stackover2.png" alt="" />
+          </a>
+      
       </div>
     );
   }

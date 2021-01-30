@@ -16,6 +16,9 @@ class Home extends Component {
               <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing">
                 <h4>Click Here To View Resume</h4>
               </a>
+              <a href="https://www.linkedin.com/in/vincent-kendrick-baab171b2/">
+                <h4>Click Here For LinkedIn Profile</h4>
+              </a>
             </div>
             <div className="col-md-8">
               <div className="card-body">

@@ -10,10 +10,10 @@ class Contact extends Component {
             Name
           </label>
           <input
-            type="email"
+            type="text"
             className="form-control"
             id="exampleFormControlInput1"
-            placeholder="name@example.com"
+            placeholder="name"
           />
         </div>
         <div className="mb-3">

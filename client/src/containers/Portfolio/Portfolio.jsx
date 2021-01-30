@@ -15,8 +15,8 @@ class Portfolio extends Component {
 
         <div class="container">
           <div class="row justify-content-start">
-            <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div>
+            {/* <div class="col-4">One of two columns</div>
+            <div class="col-4">One of two columns</div> */}
             <a href="https://vince-books.herokuapp.com/">
               <h1>Book Save</h1>
             </a>
@@ -24,8 +24,8 @@ class Portfolio extends Component {
             {/* <Link to = 'https://vince-books.herokuapp.com/'><button>GO GOOGLE</button></Link> */}
           </div>
           <div class="row justify-content-center">
-            <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div>
+            {/* <div class="col-4">One of two columns</div>
+            <div class="col-4">One of two columns</div> */}
             <a href="https://dagreatcode.github.io/shop/">
               <h1>Shop</h1>
             </a>
@@ -33,8 +33,8 @@ class Portfolio extends Component {
             {/* <Link to = 'https://dagreatcode.github.io/shop/'><button>GO GOOGLE</button></Link> */}
           </div>
           <div class="row justify-content-end">
-            <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div>
+            {/* <div class="col-4">One of two columns</div>
+            <div class="col-4">One of two columns</div> */}
             <a href="https://retroluxe.herokuapp.com/">
               <h1>retroluxe</h1>
             </a>
@@ -42,8 +42,8 @@ class Portfolio extends Component {
             {/* <Link to = 'https://retroluxe.herokuapp.com/'><button>GO GOOGLE</button></Link> */}
           </div>
           <div class="row justify-content-around">
-            <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div>
+            {/* <div class="col-4">One of two columns</div>
+            <div class="col-4">One of two columns</div> */}
             <a href="https://dagreatcode.github.io/goodAutoDash/">
               <h1>GoodAutoDash</h1>
             </a>
@@ -51,8 +51,8 @@ class Portfolio extends Component {
             {/* <Link to = 'https://dagreatcode.github.io/goodAutoDash/'><button>GO GOOGLE</button></Link> */}
           </div>
           <div class="row justify-content-between">
-            <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div>
+            {/* <div class="col-4">One of two columns</div>
+            <div class="col-4">One of two columns</div> */}
             <a href="https://dagreatcode.github.io/whats-for-dinner/">
               <h1>What's For Dinner</h1>
             </a>
@@ -60,8 +60,8 @@ class Portfolio extends Component {
             {/* <Link to = 'https://dagreatcode.github.io/whats-for-dinner/'><button>GO GOOGLE</button></Link> */}
           </div>
           <div class="row justify-content-evenly">
-            <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div>
+            {/* <div class="col-4">One of two columns</div>
+            <div class="col-4">One of two columns</div> */}
             <a href="http://www.positive-thoughts.org/">
               <h1>Positive Thoughts</h1>
             </a>

@@ -1,6 +1,7 @@
 // rcc
 import React, { Component } from "react";
 import img from "./img2.jpg";
+import "./Home.css";
 
 class Home extends Component {
   render() {

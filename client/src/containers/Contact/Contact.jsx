@@ -16,7 +16,7 @@ function sendEmail(e) {
       (result) => {
         console.log(result.text);
         if(result){
-          return "/"
+          return "/contact"
         }
       },
       (error) => {

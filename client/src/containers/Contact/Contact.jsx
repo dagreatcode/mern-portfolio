@@ -10,14 +10,12 @@ function sendEmail(e) {
       "service_a6y7bdk",
       "template_103v8es",
       e.target,
-      "user_bh2MCT6segeJzTFqE9s7P"
+      "user_bh2MCT6segeJzTFqE9s7P",
+      e.preventDefault
     )
     .then(
       (result) => {
         console.log(result.text);
-        if(result){
-          return "/contact"
-        }
       },
       (error) => {
         console.log(error.text);

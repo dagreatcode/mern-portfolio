@@ -5,13 +5,13 @@ import img2 from "./github.png";
 import img3 from "./georgia2.gif";
 
 function sendEmail(e) {
+//  e.preventDefault();
   emailjs
     .sendForm(
       "service_a6y7bdk",
       "template_103v8es",
       e.target,
       "user_bh2MCT6segeJzTFqE9s7P"
-      //      ,e.preventDefault
     )
     .then(
       (result) => {
@@ -22,6 +22,29 @@ function sendEmail(e) {
       }
     );
 }
+
+// function handleFormSubmit(event) {
+//   event.preventDefault();
+//   function sendEmail(e) {
+//     emailjs
+//       .sendForm(
+//         "service_a6y7bdk",
+//         "template_103v8es",
+//         e.target,
+//         "user_bh2MCT6segeJzTFqE9s7P"
+//         //      ,e.preventDefault
+//       )
+//       .then(
+//         (result) => {
+//           console.log(result.text);
+//         },
+//         (error) => {
+//           console.log(error.text);
+//         }
+//       );
+//   }
+// .catch(err => console.log(err));
+// }
 
 class Contact extends Component {
   render() {

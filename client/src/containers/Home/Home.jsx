@@ -8,6 +8,7 @@ class Home extends Component {
     return (
       <>
         <h1>About Me</h1>
+        <div className="container">
         {/* <img align="left" alt="resume" width="22px" src=" https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing"/> */}
         {/* src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/googledrive.svg"  */}
         <div className="card mb-3">
@@ -53,6 +54,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </>
     );

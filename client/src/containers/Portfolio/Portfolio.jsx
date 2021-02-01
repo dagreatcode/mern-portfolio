@@ -18,7 +18,7 @@ class Portfolio extends Component {
             {/* <div class="col-4">One of two columns</div>
             <div class="col-4">One of two columns</div> */}
             <a href="https://vince-books.herokuapp.com/">
-              <h1>Book Save</h1>
+              <h2>Book Save</h2>
             </a>
             <img src={p1} alt="Logo" />;
             {/* <Link to = 'https://vince-books.herokuapp.com/'><button>GO GOOGLE</button></Link> */}
@@ -27,7 +27,7 @@ class Portfolio extends Component {
             {/* <div class="col-4">One of two columns</div>
             <div class="col-4">One of two columns</div> */}
             <a href="https://dagreatcode.github.io/shop/">
-              <h1>Shop</h1>
+              <h2>Shop</h2>
             </a>
             <img src={p2} alt="Logo" />;
             {/* <Link to = 'https://dagreatcode.github.io/shop/'><button>GO GOOGLE</button></Link> */}
@@ -36,7 +36,7 @@ class Portfolio extends Component {
             {/* <div class="col-4">One of two columns</div>
             <div class="col-4">One of two columns</div> */}
             <a href="https://retroluxe.herokuapp.com/">
-              <h1>retroluxe</h1>
+              <h2>retroluxe</h2>
             </a>
             <img src={p3} alt="Logo" />;
             {/* <Link to = 'https://retroluxe.herokuapp.com/'><button>GO GOOGLE</button></Link> */}
@@ -45,7 +45,7 @@ class Portfolio extends Component {
             {/* <div class="col-4">One of two columns</div>
             <div class="col-4">One of two columns</div> */}
             <a href="https://dagreatcode.github.io/goodAutoDash/">
-              <h1>GoodAutoDash</h1>
+              <h2>GoodAutoDash</h2>
             </a>
             <img src={p4} alt="Logo" />;
             {/* <Link to = 'https://dagreatcode.github.io/goodAutoDash/'><button>GO GOOGLE</button></Link> */}
@@ -54,7 +54,7 @@ class Portfolio extends Component {
             {/* <div class="col-4">One of two columns</div>
             <div class="col-4">One of two columns</div> */}
             <a href="https://dagreatcode.github.io/whats-for-dinner/">
-              <h1>What's For Dinner</h1>
+              <h2>What's For Dinner</h2>
             </a>
             <img src={p5} alt="Logo" />;
             {/* <Link to = 'https://dagreatcode.github.io/whats-for-dinner/'><button>GO GOOGLE</button></Link> */}
@@ -63,7 +63,7 @@ class Portfolio extends Component {
             {/* <div class="col-4">One of two columns</div>
             <div class="col-4">One of two columns</div> */}
             <a href="http://www.positive-thoughts.org/">
-              <h1>Positive Thoughts</h1>
+              <h2>Positive Thoughts</h2>
             </a>
             <img src={p6} alt="Logo" />;
             {/* <Link to = 'http://www.positive-thoughts.org/'><button>GO GOOGLE</button></Link> */}

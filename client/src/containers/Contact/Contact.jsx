@@ -5,7 +5,6 @@ import img2 from "./github.png";
 import img3 from "./georgia2.gif";
 
 function sendEmail(e) {
-  e.preventDefault();
   emailjs
     .sendForm(
       "service_a6y7bdk",
@@ -16,6 +15,9 @@ function sendEmail(e) {
     .then(
       (result) => {
         console.log(result.text);
+        if(result){
+          return "/"
+        }
       },
       (error) => {
         console.log(error.text);

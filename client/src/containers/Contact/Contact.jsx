@@ -4,24 +4,39 @@ import img from "./linkedin.png";
 import img2 from "./github.png";
 import img3 from "./georgia2.gif";
 
+// function sendEmail(e) {
+//   emailjs
+//     .sendForm(
+//       "service_a6y7bdk",
+//       "template_103v8es",
+//       e.target,
+//       "user_bh2MCT6segeJzTFqE9s7P"
+//     )
+//     .then(
+//       (result) => {
+//         console.log(result.text);
+//         if(result){
+//           return "/"
+//         }
+//       },
+//       (error) => {
+//         console.log(error.text);
+//       }
+//     );
+// }
 function sendEmail(e) {
-  emailjs
-    .sendForm(
-      "service_a6y7bdk",
-      "template_103v8es",
-      e.target,
-      "user_bh2MCT6segeJzTFqE9s7P"
-    )
-    .then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-}
+  e.preventDefault();
 
+  emailjs.sendForm(     
+    "service_a6y7bdk",
+         "template_103v8es",
+         e.target,
+         "user_bh2MCT6segeJzTFqE9s7P")
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
 // function handleFormSubmit(event) {
 //   event.preventDefault();
 //   function sendEmail(e) {
@@ -42,8 +57,8 @@ function sendEmail(e) {
 //         }
 //       );
 //   }
-// .catch(err => console.log(err));
-// }
+  // .catch(err => console.log(err));
+}
 
 class Contact extends Component {
   render() {

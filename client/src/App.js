@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import axios from "axios";
 import Navbar from "./components/Navbar/Navbar";
@@ -21,7 +21,7 @@ function App() {
   }, []);
   return (
     <>
-    {/* <h1>hello</h1> */}
+      {/* <h1>hello</h1> */}
       <Router>
         <Navbar />
         <Switch>

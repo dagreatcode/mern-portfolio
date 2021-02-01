@@ -5,7 +5,6 @@ import img2 from "./github.png";
 import img3 from "./georgia2.gif";
 
 function sendEmail(e) {
-//  e.preventDefault();
   emailjs
     .sendForm(
       "service_a6y7bdk",
@@ -53,6 +52,9 @@ class Contact extends Component {
         <h1>Contact Me @ 404-337-1206</h1>
         <form className="contact-form" onSubmit={sendEmail}>
           <div className="mb-3">
+            <input 
+              type="hidden" 
+              name="contact_number" />
             <label for="exampleFormControlInput1" className="form-label">
               Name
             </label>

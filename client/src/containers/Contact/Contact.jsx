@@ -3,9 +3,9 @@ import emailjs from "emailjs-com";
 import img from "./linkedin.png";
 import img2 from "./github.png";
 import img3 from "./georgia2.gif";
-// const user_name = "";
-// const user_email = "";
-// const message = "";
+const user_name = "";
+const user_email = "";
+const message = "";
 
 // function sendEmail(e) {
 //   emailjs
@@ -129,7 +129,7 @@ class Contact extends Component {
               type="text"
               value={this.state.value} 
               onChange={this.handleChange}
-              name={this.state.user_name}
+              name="user_name"
               className="form-control"
               id="subject"
               placeholder="name"
@@ -141,7 +141,7 @@ class Contact extends Component {
             </label>
             <input
               type="email"
-              name={this.state.user_email}
+              name="user_email"
               className="form-control"
               id="email"
               placeholder="name@example.com"
@@ -153,7 +153,7 @@ class Contact extends Component {
             </label>
             <textarea
               className="form-control"
-              name={this.state.message}
+              name="message"
               id="message"
               rows="3"
             ></textarea>

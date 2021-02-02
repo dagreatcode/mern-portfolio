@@ -7,65 +7,6 @@ const user_name = "";
 const user_email = "";
 const message = "";
 
-// function sendEmail(e) {
-//   emailjs
-//     .sendForm(
-//       "service_a6y7bdk",
-//       "template_103v8es",
-//       e.target,
-//       "user_bh2MCT6segeJzTFqE9s7P"
-//     )
-//     .then(
-//       (result) => {
-//         console.log(result.text);
-//         if(result){
-//           return "/"
-//         }
-//       },
-//       (error) => {
-//         console.log(error.text);
-//       }
-//     );
-// }
-
-// function sendEmail(e) {
-  // e.preventDefault();
-
-  // emailjs.sendForm(     
-  //   "service_a6y7bdk",
-  //        "template_103v8es",
-  //        e.target,
-  //        "user_bh2MCT6segeJzTFqE9s7P")
-  //   .then((result) => {
-  //       console.log(result.text);
-  //   }, (error) => {
-  //       console.log(error.text);
-  //   });
-// function handleFormSubmit(event) {
-//   event.preventDefault();
-//   function sendEmail(e) {
-//     emailjs
-//       .sendForm(
-//         "service_a6y7bdk",
-//         "template_103v8es",
-//         e.target,
-//         "user_bh2MCT6segeJzTFqE9s7P"
-//         //      ,e.preventDefault
-//       )
-//       .then(
-//         (result) => {
-//           console.log(result.text);
-//         },
-//         (error) => {
-//           console.log(error.text);
-//         }
-//       );
-//   }
-  // .catch(err => console.log(err));
-// }
-
-
-
 class Contact extends Component {
 
   constructor(props) {

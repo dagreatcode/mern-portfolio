@@ -88,7 +88,7 @@ class Contact extends Component {
           console.log(error.text);
       });
     alert('Thank You:' + this.state.value + ', I will be contacting you as soon as possible.');
-    //event.preventDefault();
+    event.preventDefault();
   }
 
 //   state = {

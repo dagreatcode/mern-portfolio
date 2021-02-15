@@ -7,6 +7,7 @@ const user_name = "";
 const user_email = "";
 const message = "";
 
+
 class Contact extends Component {
 
   constructor(props) {
@@ -102,15 +103,15 @@ class Contact extends Component {
           <input type="submit" value="Submit" />
         </form>
         <h2>E-mail Me @ dagreatcode@gmail.com</h2>
-        <a href="https://www.linkedin.com/in/vincent-kendrick-baab171b2/">
+        <a href="https://www.linkedin.com/in/vincent-kendrick-baab171b2/" target="_blank">
           <img src={img} alt="Linked In" />
           LinkedIn
         </a>
-        <a href="https://github.com/dagreatcode">
+        <a href="https://github.com/dagreatcode" target="_blank">
           <img src={img2} alt="Github" />
           Github
         </a>
-        <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing/">
+        <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing/" target="_blank">
           <img src={img3} alt="Resume" />
           Resume
         </a>

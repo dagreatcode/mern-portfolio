@@ -5,12 +5,21 @@ const path = require("path");
 
 const PORT = process.env.PORT || 3001;
 
+// const db = require("./models");
+
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("client/build"));
+
+// // Serve up static assets (usually on heroku)
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static("client/build"));
+// }
+// // Add routes, both API and view
+// app.use(routes);
 
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/mern-portfolio",

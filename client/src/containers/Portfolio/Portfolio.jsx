@@ -13,55 +13,55 @@ class Portfolio extends Component {
       <div>
         <h1>Portfolio</h1>
 
-        <div class="container">
-          <div class="row justify-content-start">
-            {/* <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div> */}
+        <div className="container">
+          <div className="row justify-content-start">
+            {/* <div className="col-4">One of two columns</div>
+            <div className="col-4">One of two columns</div> */}
             <a href="https://vince-books.herokuapp.com/">
               <h2>Book Save</h2>
             </a>
             <img src={p1} alt="Logo" />;
             {/* <Link to = 'https://vince-books.herokuapp.com/'><button>GO GOOGLE</button></Link> */}
           </div>
-          <div class="row justify-content-center">
-            {/* <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div> */}
+          <div className="row justify-content-center">
+            {/* <div className="col-4">One of two columns</div>
+            <div className="col-4">One of two columns</div> */}
             <a href="https://dagreatcode.github.io/shop/">
               <h2>Shop</h2>
             </a>
             <img src={p2} alt="Logo" />;
             {/* <Link to = 'https://dagreatcode.github.io/shop/'><button>GO GOOGLE</button></Link> */}
           </div>
-          <div class="row justify-content-end">
-            {/* <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div> */}
+          <div className="row justify-content-end">
+            {/* <div className="col-4">One of two columns</div>
+            <div className="col-4">One of two columns</div> */}
             <a href="https://retroluxe.herokuapp.com/">
               <h2>retroluxe</h2>
             </a>
             <img src={p3} alt="Logo" />;
             {/* <Link to = 'https://retroluxe.herokuapp.com/'><button>GO GOOGLE</button></Link> */}
           </div>
-          <div class="row justify-content-around">
-            {/* <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div> */}
+          <div className="row justify-content-around">
+            {/* <div className="col-4">One of two columns</div>
+            <div className="col-4">One of two columns</div> */}
             <a href="https://dagreatcode.github.io/goodAutoDash/">
               <h2>GoodAutoDash</h2>
             </a>
             <img src={p4} alt="Logo" />;
             {/* <Link to = 'https://dagreatcode.github.io/goodAutoDash/'><button>GO GOOGLE</button></Link> */}
           </div>
-          <div class="row justify-content-between">
-            {/* <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div> */}
+          <div className="row justify-content-between">
+            {/* <div className="col-4">One of two columns</div>
+            <div className="col-4">One of two columns</div> */}
             <a href="https://dagreatcode.github.io/whats-for-dinner/">
               <h2>What's For Dinner</h2>
             </a>
             <img src={p5} alt="Logo" />;
             {/* <Link to = 'https://dagreatcode.github.io/whats-for-dinner/'><button>GO GOOGLE</button></Link> */}
           </div>
-          <div class="row justify-content-evenly">
-            {/* <div class="col-4">One of two columns</div>
-            <div class="col-4">One of two columns</div> */}
+          <div className="row justify-content-evenly">
+            {/* <div className="col-4">One of two columns</div>
+            <div className="col-4">One of two columns</div> */}
             <a href="http://www.positive-thoughts.org/">
               <h2>Positive Thoughts</h2>
             </a>

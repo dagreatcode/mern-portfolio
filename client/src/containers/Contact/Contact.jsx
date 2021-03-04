@@ -107,7 +107,7 @@ class Contact extends Component {
           <img src={img} alt="Linked In" />
           LinkedIn
         </a>
-        <a href="https://github.com/dagreatcode" target="_blank">
+        <a href="https://github.com/dagreatcode" title="Github" target="_blank">
           <img src={img2} alt="Github" />
           Github
         </a>

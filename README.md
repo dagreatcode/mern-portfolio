@@ -2,8 +2,8 @@
 
 ### Hi there, I'm [Vincent Kendrick][website] 👋
 
-
 ## I'm a Man, Husband, Father, Friend, Developer, Teacher, and Researcher!
+
 [🎧 Page Music 🎧](https://www.youtube.com/watch?v=BP4Utfqnp2I)
 
 - 🔭 I’m currently working on my [Portfolio][website]!
@@ -30,7 +30,9 @@
 [<img align="left" alt="R" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />][website]
 [<img align="left" alt="R" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png" />][website]
 [<img align="left" alt="R" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />][website]
+
 <!-- [<img align="left" alt="Microsoft Excel" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Microsoft_Office_Excel_%282018%E2%80%93present%29.svg/1101px-Microsoft_Office_Excel_%282018%E2%80%93present%29.svg.png" />][website] -->
+
 [<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />][website]
 [<img align="left" alt="PostgreSQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />][website]
 [<img align="left" alt="Tableau" width="26px" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" />][website]
@@ -45,7 +47,7 @@
 
 ### Website Demo:
 
-[Link To Wireframe][Link]
+[Link To Wireframe][link]
 
 ![Demo](./client/public/img/gifs.gif)
 

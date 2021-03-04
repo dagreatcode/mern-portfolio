@@ -3,10 +3,6 @@ import emailjs from "emailjs-com";
 import img from "./linkedin.png";
 import img2 from "./github.png";
 import img3 from "./georgia2.gif";
-const user_name = "";
-const user_email = "";
-const message = "";
-
 
 class Contact extends Component {
 
@@ -64,7 +60,7 @@ class Contact extends Component {
         <h1>Contact Me @ 404-337-1206</h1>
         <form className="contact-form" onSubmit={this.handleSubmit}>
           <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">
+            <label htmlFor="exampleFormControlInput1" className="form-label">
               Name
             </label>
             <input
@@ -78,7 +74,7 @@ class Contact extends Component {
             />
           </div>
           <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">
+            <label htmlFor="exampleFormControlInput1" className="form-label">
               Email address
             </label>
             <input
@@ -103,15 +99,15 @@ class Contact extends Component {
           <input type="submit" value="Submit" />
         </form>
         <h2>E-mail Me @ dagreatcode@gmail.com</h2>
-        <a href="https://www.linkedin.com/in/vincent-kendrick-baab171b2/" target="_blank">
+        <a href="https://www.linkedin.com/in/vincent-kendrick-baab171b2/" target="_blank" rel="noreferrer">
           <img src={img} alt="Linked In" />
           LinkedIn
         </a>
-        <a href="https://github.com/dagreatcode" title="Github" target="_blank">
+        <a href="https://github.com/dagreatcode" title="Github" target="_blank" rel="noreferrer">
           <img src={img2} alt="Github" />
           Github
         </a>
-        <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing/" target="_blank">
+        <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing/" target="_blank" rel="noreferrer">
           <img src={img3} alt="Resume" />
           Resume
         </a>

@@ -1,3 +1,3 @@
-model.exports = {
+module.exports = {
     Projects: require("./Projects")
 };

@@ -6,6 +6,8 @@ const path = require("path");
 
 const PORT = process.env.PORT || 3001;
 
+const db = require("./models");
+
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
@@ -45,11 +47,15 @@ app.get("/api/config", (req, res) => {
   });
 });
 
-// app.get("/api/projects", (req, res) => {
-//   res.json({
-//     success: true,
-//   });
-// });
+app.get("/api/projects", (req, res) => {
+  db.Projects.find({})
+    .then(dbProject => {
+      res.json(dbProject);
+    })
+    .catch(err => {
+      res.json(err);
+    });
+});
 
 app.get("*", (req, res) => {
   res.sendFile(path.json(__dirname, "./client/build/index.html"));

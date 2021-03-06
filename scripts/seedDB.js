@@ -14,42 +14,42 @@ const projectSeed = [
     name: "Book Save",
     link: "https://vince-books.herokuapp.com/",
     image:
-      "",
+      "img/p1.png",
     date: new Date(Date.now())
   },
   {
     name: "Shop",
     link: "https://dagreatcode.github.io/shop/",
     image:
-      "",
+      "img/p2.png",
     date: new Date(Date.now())
   },
   {
     name: "RetroLuxe",
     link: "https://retroluxe.herokuapp.com/",
     image:
-      "",
+      "img/p3.png",
     date: new Date(Date.now())
   },
   {
     name: "GoodAutoDash",
     link: "https://dagreatcode.github.io/goodAutoDash/",
     image:
-      "",
+      "img/p4.png",
     date: new Date(Date.now())
   },
   {
     name: "What's For Dinner",
     link: "https://dagreatcode.github.io/whats-for-dinner/",
     image:
-      "",
+      "img/p5.png",
     date: new Date(Date.now())
   },
   {
     name: "Positive Thoughts",
     link: "http://www.positive-thoughts.org/",
     image:
-      "",
+      "img/p6.png",
     date: new Date(Date.now())
   },
 ];

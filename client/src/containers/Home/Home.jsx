@@ -15,24 +15,24 @@ class Home extends Component {
             <div className="row g-0">
               <div className="col-md-4">
                 {/* <img src={img} alt="Vincent Kendrick" /> */}
-                <div
-                  class="LI-profile-badge"
-                  data-version="v1"
-                  data-size="large"
-                  data-locale="en_US"
-                  data-type="horizontal"
-                  data-theme="dark"
-                  data-vanity="vincent-kendrick"
-                >
-                  <a
-                    class="LI-simple-link"
-                    href="https://www.linkedin.com/in/vincent-kendrick?trk=profile-badge"
+                <center>
+                  <div
+                    class="LI-profile-badge"
+                    data-version="v1"
+                    data-size="large"
+                    data-locale="en_US"
+                    data-type="vertical"
+                    data-theme="dark"
+                    data-vanity="vincent-kendrick"
                   >
-                    Vincent Kendrick
-                  </a>
-                </div>
-                <br />
-                <br />
+                    <a
+                      class="LI-simple-link"
+                      href="https://www.linkedin.com/in/vincent-kendrick?trk=profile-badge"
+                    >
+                      Vincent Kendrick
+                    </a>
+                  </div>
+                </center>
                 <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing">
                   <i className="fab fa-google-drive"></i>
                   <i className="fab fa-google-drive float-right"></i>

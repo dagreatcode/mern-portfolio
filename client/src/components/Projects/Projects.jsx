@@ -7,7 +7,6 @@ function Projects() {
   //   const [projects, setProjects] = useState([]);
   //   const history = useHistory();
 
-
   //  useEffect(() => {}, []);
 
   return (

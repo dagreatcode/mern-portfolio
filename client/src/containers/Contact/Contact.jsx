@@ -5,59 +5,70 @@ import img2 from "./github.png";
 import img3 from "./georgia2.gif";
 
 class Contact extends Component {
-
   constructor(props) {
     super(props);
-    this.state = {value: ''};
+    this.state = { value: "" };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange(event) {    this.setState({value: event.target.value});  }
+  handleChange(event) {
+    this.setState({ value: event.target.value });
+  }
   handleSubmit(event) {
-    emailjs.sendForm(     
-      "service_a6y7bdk",
-           "template_103v8es",
-           event.target,
-           "user_bh2MCT6segeJzTFqE9s7P")
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_a6y7bdk",
+        "template_103v8es",
+        event.target,
+        "user_bh2MCT6segeJzTFqE9s7P"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
-    alert('Thank You:' + this.state.value + ', I will be contacting you as soon as possible.');
+        }
+      );
+    alert(
+      "Thank You:" +
+        this.state.value +
+        ", I will be contacting you as soon as possible."
+    );
     event.preventDefault();
   }
 
-//   state = {
-//     user_name: user_name,
-//     user_email: user_email,
-//     message: message
-// }
+  //   state = {
+  //     user_name: user_name,
+  //     user_email: user_email,
+  //     message: message
+  // }
 
-// handleInputChange = event => {
-//   const {name, value} = event.target;
-//   this.setState({
-//     [name]: value
-//   })
-// }
+  // handleInputChange = event => {
+  //   const {name, value} = event.target;
+  //   this.setState({
+  //     [name]: value
+  //   })
+  // }
 
-// handleFormSubmit = event => {
-//   emailjs.sendForm(     
-//     "service_a6y7bdk",
-//          "template_103v8es",
-//          event.target,
-//          "user_bh2MCT6segeJzTFqE9s7P")
-//     .then((result) => {
-//         console.log(result.text);
-//     }, (error) => {
-//         console.log(error.text);
-//     }); 
-// }
+  // handleFormSubmit = event => {
+  //   emailjs.sendForm(
+  //     "service_a6y7bdk",
+  //          "template_103v8es",
+  //          event.target,
+  //          "user_bh2MCT6segeJzTFqE9s7P")
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  // }
   render() {
     return (
       <div className="container">
         <h1>Contact Me @ 404-337-1206</h1>
+        <h2>E-mail Me @ dagreatcode@gmail.com</h2>
         <form className="contact-form" onSubmit={this.handleSubmit}>
           <div className="mb-3">
             <label htmlFor="exampleFormControlInput1" className="form-label">
@@ -65,7 +76,7 @@ class Contact extends Component {
             </label>
             <input
               type="text"
-              value={this.state.value} 
+              value={this.state.value}
               onChange={this.handleChange}
               name="user_name"
               className="form-control"
@@ -98,16 +109,20 @@ class Contact extends Component {
           </div>
           <input type="submit" value="Submit" />
         </form>
-        <h2>E-mail Me @ dagreatcode@gmail.com</h2>
-        <a href="https://www.linkedin.com/in/vincent-kendrick-baab171b2/" target="_blank" rel="noreferrer">
-          <img src={img} alt="Linked In" />
-          LinkedIn
-        </a>
-        <a href="https://github.com/dagreatcode" title="Github" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/dagreatcode"
+          title="Github"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={img2} alt="Github" />
           Github
         </a>
-        <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing/" target="_blank" rel="noreferrer">
+        <a
+          href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={img3} alt="Resume" />
           Resume
         </a>

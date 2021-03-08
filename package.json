@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/dagreatcode/mern-portfolio#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "dotenv": "^8.2.0",

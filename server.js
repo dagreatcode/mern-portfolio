@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
-// const routes = require("./routes/api");
+const routes = require("./routes/api");
 const path = require("path");
 
 const PORT = process.env.PORT || 3001;
@@ -19,7 +19,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Add routes, both API and view
-// app.use(routes);
+app.use(routes);
 
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/mern-portfolio",
@@ -45,16 +45,6 @@ app.get("/api/config", (req, res) => {
   res.json({
     success: true,
   });
-});
-
-app.get("/api/projects", (req, res) => {
-  db.Projects.find({})
-    .then((dbProject) => {
-      res.json(dbProject);
-    })
-    .catch((err) => {
-      res.json(err);
-    });
 });
 
 app.get("*", (req, res) => {

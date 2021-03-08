@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const projectsController = require("../../controllers/projectsControllers");
-const db = require("../models");
+const db = require("../../models");
 
 router.get("/projects", (req, res) => {
   // Use a regular expression to search titles for req.query.q

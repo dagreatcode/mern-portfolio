@@ -53,7 +53,7 @@
 
 <br />
 
-[website]: https://mern-port.herokuapp.com/
+[website]: http://www.vincentkendrick.com/
 [medium]: https://medium.com/@dagreatcode/
 [kaggle]: https://www.kaggle.com/dagreatcode
 [codechef]: http://codechef.com/users/dagreatcode

@@ -17,7 +17,7 @@ class Home extends Component {
                 {/* <img src={img} alt="Vincent Kendrick" /> */}
                 <center>
                   <div
-                    class="LI-profile-badge"
+                    className="LI-profile-badge"
                     data-version="v1"
                     data-size="large"
                     data-locale="en_US"
@@ -26,7 +26,7 @@ class Home extends Component {
                     data-vanity="vincent-kendrick"
                   >
                     <a
-                      class="LI-simple-link"
+                      className="LI-simple-link"
                       href="https://www.linkedin.com/in/vincent-kendrick?trk=profile-badge"
                     >
                       Vincent Kendrick

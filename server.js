@@ -19,7 +19,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Add routes, both API and view
-// pp.use(routes);
+// app.use(routes);
 
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/mern-portfolio",
@@ -49,22 +49,24 @@ app.get("/api/config", (req, res) => {
 
 app.get("/api/projects", (req, res) => {
   db.Projects.find({})
-    .then(dbProject => {
+    .then((dbProject) => {
       res.json(dbProject);
     })
-    .catch(err => {
+    .catch((err) => {
       res.json(err);
     });
 });
 
 app.get("*", (req, res) => {
-  res.sendFile(path.json(__dirname, "./client/build/index.html"));
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-app.post('/contact', (req, res)=>{
+app.post("/contact", (req, res) => {
   console.log(req.body);
-})
+});
 
 app.listen(PORT, () => {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT} on http://localhost:${PORT}`);
+  console.log(
+    `🌎  ==> API Server now listening on PORT ${PORT} on http://localhost:${PORT}`
+  );
 });

@@ -24,7 +24,7 @@ function Portfolio(){
     <div>
     <h1>Portfolio</h1>
     <h1>
-      <a href="/api/projects">My Projects API</a>
+      <a href="/projects">My Projects API</a>
     </h1>
     <div className="container">
       <div className="row justify-content-end">

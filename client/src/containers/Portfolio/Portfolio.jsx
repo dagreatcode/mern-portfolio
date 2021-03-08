@@ -35,7 +35,7 @@ class Portfolio extends Component {
               <h2>GoodAutoDash</h2>
             </a>
             <a href="https://github.com/dagreatcode/goodAutoDash">
-              <h2>Githublink</h2>
+              <h2>Github link</h2>
             </a>
             <img src={p4} alt="Logo" />;
             {/* <Link to = 'https://dagreatcode.github.io/goodAutoDash/'><button>GO GOOGLE</button></Link> */}

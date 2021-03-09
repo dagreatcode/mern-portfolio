@@ -67,8 +67,11 @@ class Contact extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Contact Me @ 404-337-1206</h1>
-        <h2>E-mail Me @ dagreatcode@gmail.com</h2>
+        <a href="tel:404-337-1206"><h2>Call me at 404-337-1206</h2></a>
+        <br/>
+        <a href="mailto:dagreatcode@gmail.com?subject = Feedback&body = Message">
+          <h2>Email me at (dagreatcode@gmail.com)</h2>
+        </a>
         <form className="contact-form" onSubmit={this.handleSubmit}>
           <div className="mb-3">
             <label htmlFor="exampleFormControlInput1" className="form-label">

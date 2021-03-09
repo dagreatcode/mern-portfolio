@@ -130,7 +130,6 @@ function Portfolio() {
         <br />
         <br />
         <br />
-        <br />
         <div className="row justify-content-center">
           <h6>Click Below To Preview Page</h6>
           <a href="https://dagreatcode.github.io/shop/">

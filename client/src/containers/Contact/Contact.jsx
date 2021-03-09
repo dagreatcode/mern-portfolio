@@ -129,6 +129,14 @@ class Contact extends Component {
           <img src={img3} alt="Resume" />
           Resume
         </a>
+        <a
+          href="https://www.linkedin.com/in/vincent-kendrick/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={img} alt="LinkedIn" />
+          LinkedIn
+        </a>
       </div>
     );
   }

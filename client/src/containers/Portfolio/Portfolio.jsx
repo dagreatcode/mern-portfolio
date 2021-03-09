@@ -40,6 +40,7 @@ function Portfolio() {
           </a>
           <img src={p3} alt="Logo" />
           <h2>Project Details:</h2>
+          <p>Tools: Postman, Full CRUD, MySQL workbench. </p>
           <h2>Description:</h2>
           <p>
             In this project, I made a simple MySQL database, an express server,
@@ -62,6 +63,7 @@ function Portfolio() {
           </a>
           <img src={p4} alt="Logo" />
           <h2>Project Details:</h2>
+          <p>Tools: Plane Javascript and AJAX.</p>
           <h2>Description:</h2>
           <p>
             In this project, you can make API calls to find out all information
@@ -83,6 +85,7 @@ function Portfolio() {
           </a>
           <img src={p5} alt="Logo" />
           <h2>Project Details:</h2>
+          <p>Tools: Express, JavaScript, third-party APIs, HTML, CSS,</p>
           <h2>Description:</h2>
           <p>
             Feeling Hungry? This Website is perfect for the job. This site was
@@ -105,6 +108,10 @@ function Portfolio() {
           </a>
           <img src={p6} alt="Logo" />
           <h2>Project Details:</h2>
+          <p>
+            Tools: React, HTML, CSS, JavaScript, Bootstrap, Twilio, Cron, Jason
+            Web Token
+          </p>
           <h2>Description:</h2>
           <p>
             A project where I worked with three other coders. Our top goal was
@@ -124,6 +131,10 @@ function Portfolio() {
           </a>
           <img src={p1} alt="Logo" />
           <h2>Project Details:</h2>
+          <p>
+            Tools: React, HTML, CSS, JavaScript, Bootstrap, MangoDB, Express,
+            and Node
+          </p>
           <h2>Description:</h2>
           <p>This project was made with gh pages.</p>
         </div>
@@ -137,6 +148,9 @@ function Portfolio() {
           </a>
           <img src={p2} alt="Logo" />
           <h2>Project Details:</h2>
+          <p>
+            Tools: React, HTML, CSS, JavaScript, Bootstrap, and a foods Web API
+          </p>
           <h2>Description:</h2>
           <p>This is a serverless website. Deployed with heroku.</p>
         </div>

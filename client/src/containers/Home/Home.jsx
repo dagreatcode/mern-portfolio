@@ -63,7 +63,7 @@ class Home extends Component {
                   <p className="card-text">
                     <small className="text-muted">
                       I have a son with autism. It’s a lot but I know God would
-                      never but too much on me I can not handle. This project. I
+                      never put too much on me I can not handle. This project. I
                       have been on a long road to finding myself. I had to let a
                       lot of people go because they did not want anything, but I
                       wanted everything. I have never given up on anything no

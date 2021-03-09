@@ -82,7 +82,7 @@ class Home extends Component {
                   <div className="card-text">
                     <div className="card-body">
                       <h5 className="card-title">
-                        <center>My Skills and tools 👋</center>
+                        <center>My Skills and tools 🔭</center>
                       </h5>
                       <p className="card-text">
                         <h4>•Skills:</h4> Responsive Design, Google Developer

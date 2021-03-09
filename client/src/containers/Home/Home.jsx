@@ -13,9 +13,9 @@ class Home extends Component {
           {/* src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/googledrive.svg"  */}
           <div className="card mb-3">
             <div className="row g-0">
-              <div className="col-md-4">
+              <div className="col-md-5">
                 {/* <img src={img} alt="Vincent Kendrick" /> */}
-                <center>
+                <center className="container">
                   <div
                     className="LI-profile-badge"
                     data-version="v1"
@@ -41,7 +41,7 @@ class Home extends Component {
                   <i className="fab fa-google-drive float-right"></i>
                 </a>
               </div>
-              <div className="col-md-8">
+              <div className="col-md-7">
                 <div className="card-body">
                   <h5 className="card-title">Hi There! 👋</h5>
                   <p className="card-text">
@@ -60,21 +60,25 @@ class Home extends Component {
                     more skills than I ever could dream of having, including
                     self-awareness.
                   </p>
-                  <p className="card-text">
-                    <small className="text-muted">
-                      I have a son with autism. It’s a lot but I know God would
-                      never put too much on me I can not handle. This project. I
-                      have been on a long road to finding myself. I had to let a
-                      lot of people go because they did not want anything, but I
-                      wanted everything. I have never given up on anything no
-                      matter how bad it gets, I still seem to want to do more.
-                      It’s so easy to give up, and I never want anything easy.
-                      This project was hard but I still put my all into it… I
-                      stay up long nights trying to do it on my own. I have made
-                      a lot of mistakes. But I am still pushing forwards.
-                    </small>
-                  </p>
                 </div>
+              </div>
+            </div>
+            <div className="card-body">
+              <div className="row">
+                <p className="card-text">
+                  <small className="card-text">
+                    I have a son with autism. It’s a lot but I know God would
+                    never put too much on me I can not handle. This project. I
+                    have been on a long road to finding myself. I had to let a
+                    lot of people go because they did not want anything, but I
+                    wanted everything. I have never given up on anything no
+                    matter how bad it gets, I still seem to want to do more.
+                    It’s so easy to give up, and I never want anything easy.
+                    This project was hard but I still put my all into it… I stay
+                    up long nights trying to do it on my own. I have made a lot
+                    of mistakes. But I am still pushing forwards.
+                  </small>
+                </p>
               </div>
             </div>
           </div>

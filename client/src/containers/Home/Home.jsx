@@ -101,10 +101,11 @@ class Home extends Component {
                     <center>
                       <a href="/portfolio">My Projects</a>
                     </center>
-
                   </div>
                 </p>
-                <center><a href="tel:404-337-1206">CLICK TO CALL ME</a></center>
+                <center>
+                  <a href="tel:404-337-1206">CLICK TO CALL ME</a>
+                </center>
                 <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing">
                   <i className="fab fa-google-drive"></i>
                   <i className="fab fa-google-drive float-right"></i>
@@ -113,10 +114,15 @@ class Home extends Component {
                   <i className="fab fa-google-drive float-right"></i>
                 </a>
                 <center>
-                      <a href="mailto:dagreatcode@gmail.com?subject = Feedback&body = Message">
-                        Click to email me at (dagreatcode@gmail.com)
-                      </a>
-                    </center>
+                  <a href="mailto:dagreatcode@gmail.com?subject = Feedback&body = Message">
+                    Click to email me at (dagreatcode@gmail.com)
+                  </a>
+                </center>
+                <center>
+                  <a href="https://github.com/dagreatcode/mern-portfolio">
+                    Webpage Code. Github.com
+                  </a>
+                </center>
               </div>
             </div>
           </div>

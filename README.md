@@ -2,7 +2,7 @@
 
 ### Hi there, I'm [Vincent Kendrick][website] 👋
 
-## I'm a Man, Husband, Father, Friend, Developer, Teacher, and Researcher!
+## I'm a Man, Husband, Father, Friend, Developer, Teacher, and Researcher.
 
 [🎧 Page Music 🎧](https://www.youtube.com/watch?v=BP4Utfqnp2I)
 

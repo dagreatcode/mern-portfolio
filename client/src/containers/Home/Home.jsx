@@ -1,6 +1,6 @@
 // rcc
 import React, { Component } from "react";
-// import img from "./img2.jpg";
+import img from "./new1.png";
 import "./Home.css";
 
 class Home extends Component {
@@ -14,24 +14,15 @@ class Home extends Component {
           <div className="card mb-3">
             <div className="row g-0">
               <div className="col-md-5">
-                {/* <img src={img} alt="Vincent Kendrick" /> */}
                 <center className="container">
-                  <div
-                    className="LI-profile-badge"
-                    data-version="v1"
-                    data-size="large"
-                    data-locale="en_US"
-                    data-type="vertical"
-                    data-theme="dark"
-                    data-vanity="vincent-kendrick"
+                  <a
+                    href="https://www.linkedin.com/in/vincent-kendrick?trk=profile-badge"
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    <a
-                      className="LI-simple-link"
-                      href="https://www.linkedin.com/in/vincent-kendrick?trk=profile-badge"
-                    >
-                      Vincent Kendrick
-                    </a>
-                  </div>
+                    <img src={img} alt="Resume" />
+                    Click Image For LinkedIn
+                  </a>
                 </center>
               </div>
               <div className="col-md-7">

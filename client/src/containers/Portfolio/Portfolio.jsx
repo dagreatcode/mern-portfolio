@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import axios from "axios";
 import p1 from "./img/p1.png";
-import p2 from "./img/p2.png";
-import p3 from "./img/p3.png";
-import p4 from "./img/p4.png";
+// import p2 from "./img/p2.png";
+import p3 from "./img/p7.png";
+// import p4 from "./img/p4.png";
 import p5 from "./img/p5.png";
 import p6 from "./img/p6.png";
 // import { Link } from "react-router-dom";
@@ -31,24 +31,22 @@ function Portfolio() {
       <div className="container">
         <div className="row justify-content-end">
           <h6>Click Below To Preview Page</h6>
-          <a href="https://retroluxe.herokuapp.com/">
-            <h2>Retroluxe</h2>
+          <a href="https://workoutwatcher.herokuapp.com/?id=605276ac8d961900173d80ad">
+            <h2>Workout-Tracker</h2>
           </a>
           <h6>Click Below To Preview Code</h6>
-          <a href="https://github.com/dagreatcode/barbara-api.git">
+          <a href="https://github.com/dagreatcode/Workout-Tracker">
             <h2>Github Link</h2>
           </a>
           <img src={p3} alt="Logo" />
           <h2>Project Details:</h2>
-          <p>Tools: Postman, Full CRUD, MySQL workbench. </p>
+          <p>Tools: Postman, Full CRUD, MongoDB, HTML and CSS. </p>
           <h2>Description:</h2>
           <p>
-            In this project, I made a simple MySQL database, an express server,
-            and deployed to Heroku. This database uses a JAWS database for an
-            online service. The user can keep track of all of their items.
+            View create and track daily workouts, also log multiple exercises in a workout on a given day. You can also track the name, type, weight, sets, reps, and duration of exercise.
           </p>
         </div>
-        <br />
+        {/* <br />
         <br />
         <br />
         <br />
@@ -69,7 +67,7 @@ function Portfolio() {
             In this project, you can make API calls to find out all information
             about any car with just the VIN number. Also ODB codes and more.
           </p>
-        </div>
+        </div> */}
         <br />
         <br />
         <br />
@@ -138,7 +136,7 @@ function Portfolio() {
           <h2>Description:</h2>
           <p>This project was made with gh pages.</p>
         </div>
-        <br />
+        {/* <br />
         <br />
         <br />
         <div className="row justify-content-center">
@@ -153,7 +151,7 @@ function Portfolio() {
           </p>
           <h2>Description:</h2>
           <p>This is a serverless website. Deployed with heroku.</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

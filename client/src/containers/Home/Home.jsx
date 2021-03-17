@@ -41,39 +41,21 @@ class Home extends Component {
                     Welcome to my Portfolio. This application was made to show
                     the skills I’ve acquired on my journey. I started off as a
                     Musician and started working at Delta Airlines to support my
-                    dreams at the time. Later on, I started working with python
-                    and data on my own. But I still was hungry for more. I felt
-                    that I was maybe learning things I didn’t need to know or
-                    learning things and missing things I may have needed from
-                    looking at YouTube videos. Covid came around and I volunteer
-                    took a leave they offer the company. They said it would help
-                    a lot for a number of reasons. So I took the opportunity to
+                    dreams. Later on, I started working with python and data on
+                    my own. I felt that I was maybe learning things I didn’t
+                    need to know. Covid came around and I volunteered to take a
+                    leave they offer to the employees. They said it would help a
+                    lot for a number of reasons. So I took the opportunity to
                     help out and leave into a new career. I chose Web
                     Development. Ended up Graduating from Georgia Tech and Have
                     more skills than I ever could dream of having, including
                     self-awareness. My passion for development and problem
-                    solving, and solutions to errors has made me a better coder.
-                    Working with others makes any job better. With my work
-                    ethic, I will work to make any project or job to be the best
-                    version it can be.
+                    solving, and solutions have made me a better coder. Working
+                    with others makes any job better. With my work ethic, I will
+                    work to make any project or job to be the best version it
+                    can be.
                   </p>
                 </div>
-              </div>
-            </div>
-            <div className="card-body">
-              <div className="row">
-                <p className="card-text">
-                  I have a son with autism. It’s a lot but I know God would
-                  never put too much on me I can not handle. This project. I
-                  have been on a long road to finding myself. I had to let a lot
-                  of people go because they did not want anything, but I wanted
-                  everything. I have never given up on anything no matter how
-                  bad it gets, I still seem to want to do more. It’s so easy to
-                  give up, and I never want anything easy. This project was hard
-                  but I still put my all into it… I stay up long nights trying
-                  to do it on my own. I have made a lot of mistakes. But I am
-                  still pushing forwards.
-                </p>
               </div>
             </div>
             <div className="card-body">
@@ -115,7 +97,7 @@ class Home extends Component {
                 </a>
                 <center>
                   <a href="mailto:dagreatcode@gmail.com?subject = Feedback&body = Message">
-                    Click to email me at (dagreatcode@gmail.com)
+                    Email me at (dagreatcode@gmail.com)
                   </a>
                 </center>
                 <center>

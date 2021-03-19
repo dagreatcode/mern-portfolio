@@ -67,8 +67,10 @@ class Contact extends Component {
   render() {
     return (
       <div className="container">
-        <a href="tel:404-337-1206"><h2>Call me at 404-337-1206</h2></a>
-        <br/>
+        <a href="tel:404-337-1206">
+          <h2>Call me at 404-337-1206</h2>
+        </a>
+        <br />
         <a href="mailto:dagreatcode@gmail.com?subject = Feedback&body = Message">
           <h2>Email me at (dagreatcode@gmail.com)</h2>
         </a>

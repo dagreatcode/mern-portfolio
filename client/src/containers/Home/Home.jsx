@@ -21,11 +21,11 @@ class Home extends Component {
                     rel="noreferrer"
                   >
                     <img src={img} alt="Resume" />
-                    
                   </a>
-                  
                 </center>
-            <h6><center>Click Image For LinkedIn</center></h6>
+                <h6>
+                  <center>Click Image For LinkedIn</center>
+                </h6>
               </div>
               <div className="col-md-7">
                 <div className="card-body">

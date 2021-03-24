@@ -26,7 +26,7 @@ const Navbar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink
-                to="/"
+                to="/home"
                 className="nav-link"
                 style={{ color: "white", fontWeight: "bold" }}
               >

@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./containers/Home/Home";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import Contact from "./containers/Contact/Contact";
+import Login from "./components/Login/Login";
 
 function App() {
   useEffect(() => {
@@ -28,7 +29,8 @@ function App() {
           {/* <Route exact path="/mern-portfolio" component={Home} /> */}
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Login} />
+          <Route exact path="/home" component={Home} />
         </Switch>
       </Router>
     </>

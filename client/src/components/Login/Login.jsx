@@ -39,7 +39,7 @@ class Login extends Component {
           <br/>
           <div className="col-12">
             <button className="btn btn-primary" type="submit">
-              Guess Shop
+              Guess
             </button>
           </div>
         </form>

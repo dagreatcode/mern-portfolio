@@ -10,7 +10,7 @@ const Navbar = () => {
       id="navbar-darkgray"
     >
       <div className="container-fluid">
-        <Link to="/">Vincent Kendrick</Link>
+        <Link to="/home">Vincent Kendrick</Link>
         <button
           className="navbar-toggler"
           type="button"

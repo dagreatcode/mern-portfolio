@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import axios from "axios";
@@ -9,6 +9,8 @@ import Contact from "./containers/Contact/Contact";
 import Login from "./components/Login/Login";
 
 function App() {
+  const [resourceType, setResourceType] = useState();
+
   useEffect(() => {
     console.log("Make an API call");
     axios
@@ -22,15 +24,35 @@ function App() {
   }, []);
   return (
     <>
-      {/* <h1>hello</h1> */}
+      <h1>{resourceType}</h1>
       <Router>
         <Navbar />
         <Switch>
           {/* <Route exact path="/mern-portfolio" component={Home} /> */}
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/" component={Login} />
-          <Route exact path="/home" component={Home} />
+          <Route
+            exact
+            path="/portfolio"
+            component={Portfolio}
+            onClick={() => setResourceType("portfolio")}
+          />
+          <Route
+            exact
+            path="/contact"
+            component={Contact}
+            onClick={() => setResourceType("contact")}
+          />
+          <Route
+            exact
+            path="/"
+            component={Login}
+            onClick={() => setResourceType("login")}
+          />
+          <Route
+            exact
+            path="/home"
+            component={Home}
+            onClick={() => setResourceType("home")}
+          />
         </Switch>
       </Router>
     </>

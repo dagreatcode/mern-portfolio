@@ -54,8 +54,10 @@ class Home extends Component {
             <div className="row">
               <p></p>
             </div>
+            <div className="container">
             <div className="row">
-              <h1>Brand Statement</h1>
+            <div className="col-md-12">
+            <h1>Brand Statement</h1>
               <p>
                 Recently earned a certificate in full-stack development from the
                 University Coding, with newly developed skills in JavaScript,
@@ -70,6 +72,8 @@ class Home extends Component {
                 leverage my skills as part of a fast-paced, quality-driven team
                 to build better experiences on the web.
               </p>
+            </div>
+            </div>
             </div>
             <div className="card-body">
               <div className="row">

@@ -68,11 +68,11 @@ class Contact extends Component {
     return (
       <div className="container">
         <a href="tel:404-337-1206">
-          <h2>Call me at 404-337-1206</h2>
+          <h2>Click to call me 404-337-1206</h2>
         </a>
         <br />
         <a href="mailto:dagreatcode@gmail.com?subject = Feedback&body = Message">
-          <h2>Email me at (dagreatcode@gmail.com)</h2>
+          <h2>Click to email me(dagreatcode@gmail.com)</h2>
         </a>
         <form className="contact-form" onSubmit={this.handleSubmit}>
           <div className="mb-3">

@@ -52,7 +52,13 @@ class Home extends Component {
               </div>
             </div>
             <div className="row">
-              <p></p>
+                             <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing">
+                  <i className="fab fa-google-drive"></i>
+                  <i className="fab fa-google-drive float-right"></i>
+                  <center>Click Here To View Resume</center>
+                  <i className="fab fa-google-drive"></i>
+                  <i className="fab fa-google-drive float-right"></i>
+                </a>
             </div>
             <div className="container">
             <div className="row">
@@ -84,7 +90,8 @@ class Home extends Component {
                         <center>My Skills and tools 🔭</center>
                       </h5>
                       <p className="card-text">
-                        <h4>•Skills:</h4> Responsive Design, Google Developer
+                        <h4>•Skills:</h4> 
+                        Responsive Design, Google Developer
                         Tools, API Architect, Rest API
                         <h4> •Languages:</h4> HTML5, CSS3, Javascript ES6+,
                         Python, SQL, NoSQL
@@ -95,28 +102,10 @@ class Home extends Component {
                         MySQL workbench, Robo 3T, Mongo Atlas, and Postman,
                         <br />
                       </p>
-                      <br />
                     </div>
-                    <center>
-                      <a href="/portfolio">My Projects</a>
-                    </center>
+                    <br />
                   </div>
                 </p>
-                <center>
-                  <a href="tel:404-337-1206">CLICK TO CALL ME</a>
-                </center>
-                <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing">
-                  <i className="fab fa-google-drive"></i>
-                  <i className="fab fa-google-drive float-right"></i>
-                  <center>Click Here To View Resume</center>
-                  <i className="fab fa-google-drive"></i>
-                  <i className="fab fa-google-drive float-right"></i>
-                </a>
-                <center>
-                  <a href="mailto:dagreatcode@gmail.com?subject = Feedback&body = Message">
-                    Email me at (dagreatcode@gmail.com)
-                  </a>
-                </center>
                 <center>
                   <a href="https://github.com/dagreatcode/mern-portfolio">
                     Webpage Code. Github.com

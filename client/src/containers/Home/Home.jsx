@@ -20,7 +20,7 @@ class Home extends Component {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={img} alt="Resume" />
+                    <img src={img} alt="LinkedIn" />
                   </a>
                 </center>
                 <h6>

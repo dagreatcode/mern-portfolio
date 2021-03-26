@@ -33,7 +33,7 @@ function Portfolio() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <img src={p3} alt="Logo" />
+            <img src={p3} alt="Workout Tracker" />
           </div>
           <div className="col-md-4">
             <h2>Project Details:</h2>
@@ -62,7 +62,7 @@ function Portfolio() {
         <br />
         <div className="row">
           <div className="col-md-4">
-            <img src={p5} alt="Logo" />
+            <img src={p5} alt="What's for dinner" />
           </div>
           <div className="col-md-4">
             <h2>Project Details:</h2>
@@ -91,7 +91,7 @@ function Portfolio() {
         <br />
         <div className="row">
           <div className="col-md-4">
-            <img src={p6} alt="Logo" />
+            <img src={p6} alt="Positive Thoughts" />
           </div>
           <div className="col-md-4">
             <h2>Project Details:</h2>
@@ -124,7 +124,7 @@ function Portfolio() {
         <br />
         <div className="row">
           <div className="col-md-4">
-            <img src={p1} alt="Logo" />
+            <img src={p1} alt="Save Books" />
           </div>
           <div className="col-md-4">
             <h2>Project Details:</h2>

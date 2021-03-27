@@ -52,34 +52,39 @@ class Home extends Component {
               </div>
             </div>
             <div className="row">
-                             <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing">
-                  <i className="fab fa-google-drive"></i>
-                  <i className="fab fa-google-drive float-right"></i>
-                  <center>Click Here To View Resume</center>
-                  <i className="fab fa-google-drive"></i>
-                  <i className="fab fa-google-drive float-right"></i>
-                </a>
+              <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing">
+                <i className="fab fa-google-drive"></i>
+                <i className="fab fa-google-drive float-right"></i>
+                <center>Click Here To View Resume</center>
+                <i className="fab fa-google-drive"></i>
+                <i className="fab fa-google-drive float-right"></i>
+              </a>
             </div>
             <div className="container">
-            <div className="row">
-            <div className="col-md-12">
-            <h1>Brand Statement</h1>
-              <p>
-                Recently earned a certificate in full-stack development from the
-                University Coding, with newly developed skills in JavaScript,
-                CSS, React.js, and responsive web design. Known as an innovative
-                problem solver passionate about developing apps, with a focus on
-                mobile-first design and development. With each project, my aim
-                is to best engage my audience for an impactful user experience.
-                I applied aspects of UX and agile development in a recent
-                project. I worked on a team of four to develop a full-stack
-                MERN app that helps local business owners track their sales,
-                inventory, and attendance at special events. I’m excited to
-                leverage my skills as part of a fast-paced, quality-driven team
-                to build better experiences on the web.
-              </p>
-            </div>
-            </div>
+              <div className="row">
+                <div className="col-md-12">
+                  <h1>Brand Statement</h1>
+                  <p>
+                    Full-Stack Web Developer leveraging with a good ethic of
+                    hardworking background to build a more intuitive user
+                    experience on the web. Recently earned a certificate in
+                    full-stack development from the Georgia Institute of
+                    Technology, with newly developed skills in HTML, JavaScript,
+                    CSS, React.js, Express.js, SQL, NoSQL, Node.js, and
+                    responsive web design. Known as an innovative problem solver
+                    passionate about developing apps, with a focus on
+                    mobile-first design and development. With each project, my
+                    aim is to best engage my audience for an impactful user
+                    experience. I applied aspects of UX and agile development in
+                    a recent project. I worked on a team of four to develop a
+                    MERN app that helps people through these tough times with an
+                    app that sends you positive thoughts every day, and
+                    uplifting quotes. I’m excited to leverage my skills as part
+                    of a fast-paced, quality-driven team to build better
+                    experiences on the web.
+                  </p>
+                </div>
+              </div>
             </div>
             <div className="card-body">
               <div className="row">
@@ -90,9 +95,9 @@ class Home extends Component {
                         <center>My Skills and tools 🔭</center>
                       </h5>
                       <p className="card-text">
-                        <h4>•Skills:</h4> 
-                        Responsive Design, Google Developer
-                        Tools, API Architect, Rest API
+                        <h4>•Skills:</h4>
+                        Responsive Design, Google Developer Tools, API
+                        Architect, Rest API
                         <h4> •Languages:</h4> HTML5, CSS3, Javascript ES6+,
                         Python, SQL, NoSQL
                         <h4> •Frameworks:</h4> React.JS, Node.JS, JQuery, Git,

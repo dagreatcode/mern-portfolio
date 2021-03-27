@@ -32,7 +32,7 @@ function Portfolio() {
       <br/>
       <div className="container">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <img src={p3} alt="Workout Tracker" />
           </div>
           <div className="col-md-4">
@@ -45,7 +45,7 @@ function Portfolio() {
               weight, sets, reps, and duration of exercise.
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-3">
             <h6>Click Below To Preview Page</h6>
             <a href="https://workoutwatcher.herokuapp.com/?id=605276ac8d961900173d80ad">
               <h2>Workout-Tracker</h2>
@@ -61,7 +61,7 @@ function Portfolio() {
         <br />
         <br />
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <img src={p5} alt="What's for dinner" />
           </div>
           <div className="col-md-4">
@@ -74,7 +74,7 @@ function Portfolio() {
               to also make an A+ on this group project.
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-3">
             <h6>Click Below To Preview Page</h6>
             <a href="https://dagreatcode.github.io/whats-for-dinner/">
               <h2>What's For Dinner</h2>
@@ -90,7 +90,7 @@ function Portfolio() {
         <br />
         <br />
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <img src={p6} alt="Positive Thoughts" />
           </div>
           <div className="col-md-4">
@@ -107,7 +107,7 @@ function Portfolio() {
               messages through out the day.
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-3">
             <h6>Click Below To Preview Page</h6>
             <a href="http://www.positive-thoughts.org/">
               <h2>Positive Thoughts</h2>
@@ -123,7 +123,7 @@ function Portfolio() {
         <br />
         <br />
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <img src={p1} alt="Save Books" />
           </div>
           <div className="col-md-4">
@@ -135,7 +135,7 @@ function Portfolio() {
             <h2>Description:</h2>
             <p>This project was made with gh pages.</p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-3">
             <h6>Click Below To Preview Page</h6>
             <a href="https://vince-books.herokuapp.com/">
               <h2>Book Save</h2>

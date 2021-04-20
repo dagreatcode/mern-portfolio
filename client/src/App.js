@@ -44,8 +44,8 @@ function App() {
           <Route
             exact
             path="/"
-            component={Login}
-            onClick={() => setResourceType("login")}
+            component={Home}
+            onClick={() => setResourceType("home")}
           />
           <Route
             exact

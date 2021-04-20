@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./containers/Home/Home";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import Contact from "./containers/Contact/Contact";
-import Login from "./components/Login/Login";
+// import Login from "./components/Login/Login";
 
 function App() {
   const [resourceType, setResourceType] = useState();

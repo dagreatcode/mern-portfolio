@@ -46,7 +46,14 @@ class Home extends Component {
                     solving, and solutions have made me a better coder. Working
                     with others makes any job better. With my work ethic, I will
                     work to make any project or job to be the best version it
-                    can be.
+                    can be. I know I have chosen the right field, because I wake up every morning running 
+                    to the computer to code. Some code I will push to github, and 
+                    some code will be on my computer, like WordPress, and Shopify. But 
+                    for future information, I will save code to github. I will work with Wix also, 
+                    but I am a professional Javascript Full-Stack developer, so I try to stick with that. 
+                    I am always learning, because that is what this field comes with. I learning new thing, but that is 
+                    kinda my down fall, because being a master of one thing, you have to make it second nature. 
+                    That is what I am. A Full-Stack Software Developer
                   </p>
                 </div>
               </div>

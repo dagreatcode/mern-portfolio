@@ -105,13 +105,13 @@ class Home extends Component {
                         <h4>•Skills:</h4>
                         Responsive Design, Google Developer Tools, API
                         Architect, Rest API
-                        <h4> •Languages:</h4> HTML5, CSS3, Javascript ES6+,
+                        <h4> •Languages:</h4> HTML5, CSS3, Javascript ES6+, C#, 
                         Python, SQL, NoSQL
-                        <h4> •Frameworks:</h4> React.JS, Node.JS, JQuery, Git,
+                        <h4> •Frameworks:</h4> React.JS, Node.JS, JQuery, Git, ASP.NET Framework, 
                         Bootstrap, Express, MVC, PWA, NPM, Babel, Webpack, and
                         Handlebar.
-                        <h4>•Applications:</h4> GitHub, MongoDB, MySQL, vs code,
-                        MySQL workbench, Robo 3T, Mongo Atlas, and Postman,
+                        <h4>•Applications:</h4> GitHub, MongoDB, MySQL, MS Visual Studio, VS code,
+                        MySQL workbench, SQL Server Manager, Robo 3T, Mongo Atlas, and Postman,
                         <br />
                       </p>
                     </div>

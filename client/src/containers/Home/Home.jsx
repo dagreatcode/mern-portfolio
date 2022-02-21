@@ -59,7 +59,7 @@ class Home extends Component {
               </div>
             </div>
             <div className="row">
-              <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing">
+              <a href="https://docs.google.com/document/d/1vAPGMsudCXwj68sDNdse5ZleDsl94IKi/edit?usp=sharing&ouid=113004008649332235652&rtpof=true&sd=true">
                 <i className="fab fa-google-drive"></i>
                 <i className="fab fa-google-drive float-right"></i>
                 <center>Click Here To View Resume</center>
@@ -103,15 +103,15 @@ class Home extends Component {
                       </h5>
                       <p className="card-text">
                         <h4>•Skills:</h4>
-                        Responsive Design, Google Developer Tools, API
+                        Responsive Design, Google Chrome Developer Tools, API
                         Architect, Rest API
-                        <h4> •Languages:</h4> HTML5, CSS3, Javascript ES6+, C#, 
+                        <h4> •Languages:</h4> HTML5, CSS3, Javascript, ES6+, Typescript, C#, 
                         Python, SQL, NoSQL
-                        <h4> •Frameworks:</h4> React.JS, Node.JS, JQuery, Git, ASP.NET Framework, 
+                        <h4> •Frameworks:</h4> React.JS, Node.JS, JQuery, AngularJS, Git, ASP.NET Framework, 
                         Bootstrap, Express, MVC, PWA, NPM, Babel, Webpack, and
                         Handlebar.
                         <h4>•Applications:</h4> GitHub, MongoDB, MySQL, MS Visual Studio, VS code,
-                        MySQL workbench, SQL Server Manager, Robo 3T, Mongo Atlas, and Postman,
+                        MySQL workbench, SQL Server, Robo 3T, Mongo Atlas, and Postman, MS Visio
                         <br />
                       </p>
                     </div>

@@ -58,6 +58,7 @@ function Portfolio() {
         </div>
         <br />
         <br />
+        <hr/>
         <br />
         <br />
         <div className="row">
@@ -87,6 +88,7 @@ function Portfolio() {
         </div>
         <br />
         <br />
+        <hr/>
         <br />
         <br />
         <div className="row">
@@ -120,6 +122,7 @@ function Portfolio() {
         </div>
         <br />
         <br />
+        <hr/>
         <br />
         <br />
         <div className="row">

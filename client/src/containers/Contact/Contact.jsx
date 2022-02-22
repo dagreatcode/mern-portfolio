@@ -16,6 +16,7 @@ class Contact extends Component {
     this.setState({ value: event.target.value });
   }
   handleSubmit(event) {
+    // event.preventDefault();
     emailjs
       .sendForm(
         "service_a6y7bdk",
@@ -32,7 +33,7 @@ class Contact extends Component {
         }
       );
     alert(
-      "Thank You:" +
+      "Thank You: " +
         this.state.value +
         ", I will be contacting you as soon as possible."
     );

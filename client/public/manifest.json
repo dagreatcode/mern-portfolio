@@ -3,7 +3,7 @@
   "name": "Vincent Kendrick's App",
   "description": "Covid news, stats, and places to go",
   "manifest_version": 2,
-  "version": "0.1",
+  "version": "0.1",  
   "icons": [
     {
       "src": "favicon.ico",

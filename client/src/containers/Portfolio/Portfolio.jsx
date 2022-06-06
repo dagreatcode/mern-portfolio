@@ -6,6 +6,7 @@ import p3 from "./img/p7.png";
 // import p4 from "./img/p4.png";
 import p5 from "./img/p5.png";
 import p6 from "./img/p6.png";
+import p8 from "./img/p8.png";
 // import { Link } from "react-router-dom";
 
 function Portfolio() {
@@ -142,6 +143,31 @@ function Portfolio() {
             <h6>Click Below To Preview Page</h6>
             <a href="https://vince-books.herokuapp.com/">
               <h2>Book Save</h2>
+            </a>
+          </div>
+        </div>
+        <br />
+        <br />
+        <hr/>
+        <br />
+        <br />
+        <div className="row">
+          <div className="col-md-5">
+            <img src={p8} alt="Covid Way" />
+          </div>
+          <div className="col-md-4">
+            <h2>Project Details:</h2>
+            <p>
+              Tools: React, HTML, CSS, JavaScript, Bootstrap, MangoDB, Express,
+              and Node
+            </p>
+            <h2>Description:</h2>
+            <p>This project was made with heroku.</p>
+          </div>
+          <div className="col-md-3">
+            <h6>Click Below To Preview Page</h6>
+            <a href="https://www.covid-way.com/">
+              <h2>The Covid Way</h2>
             </a>
           </div>
         </div>

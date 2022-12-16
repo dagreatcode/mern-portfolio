@@ -1,12 +1,14 @@
 import { useEffect } from "react";
 import axios from "axios";
-import p1 from "./img/p1.png";
+// import p1 from "./img/p1.png";
 // import p2 from "./img/p2.png";
-import p3 from "./img/p7.png";
+// import p3 from "./img/p7.png";
 // import p4 from "./img/p4.png";
 import p5 from "./img/p5.png";
-import p6 from "./img/p6.png";
+// import p6 from "./img/p6.png";
 import p8 from "./img/p8.png";
+import p3 from "./img/p9.png";
+
 // import { Link } from "react-router-dom";
 
 function Portfolio() {
@@ -29,37 +31,36 @@ function Portfolio() {
       <h1>
         <a href="/projects">My Projects API</a>
       </h1>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <div className="container">
         <div className="row">
           <div className="col-md-5">
-            <img src={p3} alt="Workout Tracker" />
+            <img src={p8} alt="Covid Way" />
           </div>
           <div className="col-md-4">
             <h2>Project Details:</h2>
-            <p>Tools: Postman, Full CRUD, MongoDB, HTML and CSS. </p>
-            <h2>Description:</h2>
             <p>
-              View create and track daily workouts, also log multiple exercises
-              in a workout on a given day. You can also track the name, type,
-              weight, sets, reps, and duration of exercise.
+              Tools: React, HTML, CSS, JavaScript, Bootstrap, MangoDB, Express,
+              and Node
             </p>
+            <h2>Description:</h2>
+            <p>This project was made with heroku.</p>
           </div>
           <div className="col-md-3">
             <h6>Click Below To Preview Page</h6>
-            <a href="https://workoutwatcher.herokuapp.com/?id=605276ac8d961900173d80ad">
-              <h2>Workout-Tracker</h2>
+            <a href="https://www.covid-way.com/">
+              <h2>The Covid Way</h2>
             </a>
             <h6>Click Below To Preview Code</h6>
-            <a href="https://github.com/dagreatcode/Workout-Tracker">
+            <a href="https://github.com/dagreatcode/whereintheworld">
               <h2>Github Link</h2>
             </a>
           </div>
         </div>
         <br />
         <br />
-        <hr/>
+        <hr />
         <br />
         <br />
         <div className="row">
@@ -89,10 +90,69 @@ function Portfolio() {
         </div>
         <br />
         <br />
-        <hr/>
+        <hr />
         <br />
         <br />
         <div className="row">
+          <div className="col-md-5">
+            <img src={p3} alt="GoodAuto Dash" />
+          </div>
+          <div className="col-md-4">
+            <h2>Project Details:</h2>
+            <p>Tools: Postman, HTML, CSS, Javascript, and Third Party API's. </p>
+            <h2>Description:</h2>
+            <p>
+              A Dealership DashBoard made for a company to find all of the
+              information made on a car with a VIN code or the make and model.
+            </p>
+          </div>
+          <div className="col-md-3">
+            <h6>Click Below To Preview Page</h6>
+            <a href="dagreatcode.github.io/goodAutoDash/">
+              <h2>GoodAuto Dash</h2>
+            </a>
+            <h6>Click Below To Preview Code</h6>
+            <a href="https://github.com/dagreatcode/goodAutoDash">
+              <h2>Github Link</h2>
+            </a>
+          </div>
+        </div>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+        {/* <div className="row">
+          <div className="col-md-5">
+            <img src={p3} alt="Workout Tracker" />
+          </div>
+          <div className="col-md-4">
+            <h2>Project Details:</h2>
+            <p>Tools: Postman, Full CRUD, MongoDB, HTML and CSS. </p>
+            <h2>Description:</h2>
+            <p>
+              View create and track daily workouts, also log multiple exercises
+              in a workout on a given day. You can also track the name, type,
+              weight, sets, reps, and duration of exercise.
+            </p>
+          </div>
+          <div className="col-md-3">
+            <h6>Click Below To Preview Page</h6>
+            <a href="https://workoutwatcher.herokuapp.com/?id=605276ac8d961900173d80ad">
+              <h2>Workout-Tracker</h2>
+            </a>
+            <h6>Click Below To Preview Code</h6>
+            <a href="https://github.com/dagreatcode/Workout-Tracker">
+              <h2>Github Link</h2>
+            </a>
+          </div>
+        </div>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br /> */}
+        {/* <div className="row">
           <div className="col-md-5">
             <img src={p6} alt="Positive Thoughts" />
           </div>
@@ -123,10 +183,10 @@ function Portfolio() {
         </div>
         <br />
         <br />
-        <hr/>
+        <hr />
         <br />
-        <br />
-        <div className="row">
+        <br /> */}
+        {/* <div className="row">
           <div className="col-md-5">
             <img src={p1} alt="Save Books" />
           </div>
@@ -145,32 +205,7 @@ function Portfolio() {
               <h2>Book Save</h2>
             </a>
           </div>
-        </div>
-        <br />
-        <br />
-        <hr/>
-        <br />
-        <br />
-        <div className="row">
-          <div className="col-md-5">
-            <img src={p8} alt="Covid Way" />
-          </div>
-          <div className="col-md-4">
-            <h2>Project Details:</h2>
-            <p>
-              Tools: React, HTML, CSS, JavaScript, Bootstrap, MangoDB, Express,
-              and Node
-            </p>
-            <h2>Description:</h2>
-            <p>This project was made with heroku.</p>
-          </div>
-          <div className="col-md-3">
-            <h6>Click Below To Preview Page</h6>
-            <a href="https://www.covid-way.com/">
-              <h2>The Covid Way</h2>
-            </a>
-          </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
